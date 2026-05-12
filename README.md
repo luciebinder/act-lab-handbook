@@ -4,17 +4,16 @@ It covers the tools, workflows, and procedures you'll need to work and conduct r
 
 ## What's inside
 
-🗂️ File sharing with Hessenbox
-🏖️ Vacation requests & absence notifications
-🎓 Getting started as a PhD student (GRADE, IKH, Anmeldung Promotion)
-⚖️ Submitting ethics proposals
-📋 Creating surveys with SoSci Survey
-👥 Collecting data with Sona System
-📊 Analyzing data with R
-📚 Managing literature with Zotero
-🔓 Sharing research via OSF & LIFOS
-🎓 Teaching & Moodle/OLAT
-🔄 Keeping this handbook up to date with GitHub
+🗂️ File sharing with next.hessenbox  
+🏖️ Vacation requests & absence notifications  
+🎓 Getting started as a PhD student (GRADE, IKH, Anmeldung Promotion)  
+⚖️ Submitting ethics proposals  
+📋 Creating surveys with SoSci Survey  
+👥 Collecting data with Sona System  
+📚 Managing literature with Zotero  
+🔓 Sharing research via OSF & LIFOS  
+🎓 Teaching & Moodle/OLAT  
+🔄 Keeping this handbook up to date with GitHub  
 
 ## Built with
 This site is built with Jupyter Book and hosted via GitHub Pages.
