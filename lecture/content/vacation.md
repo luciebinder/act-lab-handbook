@@ -9,7 +9,7 @@ Try to plan your vacation during **lecture-free periods** where possible. Otherw
 ```
 
 
-**Step-by-step:**
+### Step-by-step:
 
 1. Go to the portal and select **"Goethe Universität Frankfurt"**, then log in with your **HRZ login**.
 
@@ -30,8 +30,7 @@ The university portal is only accessible via the **university network** or **VPN
 
 ![Overview of how a request looks like.](../static/vacation_request.png)
 
-5. Set your start and end date and click **"Sichern"**. The request will automatically be forwarded to Sabine for approval.
-
+5. Set your start and end date and click **"Sichern"**. The request will automatically be forwarded to the head of lab for approval.
 
 ```{note}
 Christmas Eve (Dec 24) and New Year's Eve (Dec 31) each count as only **half a vacation day**.
@@ -41,5 +40,20 @@ Christmas Eve (Dec 24) and New Year's Eve (Dec 31) each count as only **half a v
 
 ## Setting Up an Out-of-Office Reply
 
-Out-of-office notifications are also managed via the portal. The screenshots below walk you through the setup.
+You can set up automatic out-of-office notifications via [horde webmail](https://webmail.server.uni-frankfurt.de/login.php). The screenshots below walk you through the setup.
+
+### Step-by-step:
+
+1) Log in at [https://webmail.server.uni-frankfurt.de/login.php](https://webmail.server.uni-frankfurt.de/login.php) with your **HRZ account**.
+2) On the upper bar, click on **Weitere → HRZ**.
+
+![Overview of how a request looks like.](../static/horde_bar.png)
+
+3) Next, click on **Abwesenheitsnotiz**.
+
+![Overview of how a request looks like.](../static/horde_HRZ.png)
+
+4) Set the duration of your absence and write your out-of-office message. If applicable, add a point of contact who will be reachable for urgent matters during your absence. Don't forget to click on "Speichern".
+
+![Overview of how a request looks like.](../static/horde_out-of-office.png)
 
