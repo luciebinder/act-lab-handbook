@@ -23,12 +23,12 @@ The university portal is only accessible via the **university network** or **VPN
 
 3. At the top, you'll find an overview of your total vacation days, how many have been used, and how many are remaining. Below that, you can see your previous and pending requests and their status.
 
-![Overview of Abwesenheitsantrag site.](../static/vacation_overview.pdf)
+![Overview of Abwesenheitsantrag site.](../static/vacation_overview.png)
 
 
 4. To submit a new request, click **"Abwesenheitsantrag anlegen"** in the lower right corner.
 
-![Overview of how a request looks like.](../static/vacation_request.pdf)
+![Overview of how a request looks like.](../static/vacation_request.png)
 
 5. Set your start and end date and click **"Sichern"**. The request will automatically be forwarded to Sabine for approval.
 
