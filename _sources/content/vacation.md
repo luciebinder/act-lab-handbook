@@ -14,7 +14,7 @@ Try to plan your vacation during **lecture-free periods** where possible. Otherw
 1. Go to the portal and select **"Goethe Universität Frankfurt"**, then log in with your **HRZ login**.
 
 ```{important}
-The university portal is only accessible via the **university network** or **VPN client**. If you are working from home, make sure to connect to the VPN first.
+The university portal is only accessible via the **university network** or **VPN client** (see the {doc}`wifi` page). If you are working from home, make sure to connect to the VPN first.
 ```
 
 2. Navigate to **Personal → Abwesenheitsantrag**.
