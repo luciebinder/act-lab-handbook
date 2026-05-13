@@ -1,55 +1,13 @@
+# Welcome to the ACT-Lab Handbook 👋
+This handbook is your go-to resource for working and conducting research in the **Department of General Psychology II (ACT-Lab)** at Goethe University Frankfurt.
+Whether you're just starting as a new staff member, a HiWi, or a PhD student — this is the place to find answers to the practical questions that often get lost in onboarding emails and hallway conversations.
 
-![diler logo](../static/logo.png)
+## What you'll find here
+This handbook covers the tools, workflows, and procedures you'll encounter in your day-to-day lab life — from admin tasks like vacation requests and ethics proposals, to research tools like SONA, Zotero, and OSF.
 
+## How to navigate
+Use the table of contents on the left to browse by topic. Each section is self-contained, so feel free to jump straight to whatever you need right now.
 
-# Welcome!
+------
 
-Hello everyone and welcome to the course page for X
-
-## Course name
-
-Within this course we will explore X
-
-You can use the following sections to navigate through the content of the lecture:
-
-* [Overview & procedure ](https://m-earnest.github.io/course_template_diler/general_information/overview.html)
-
-   What's this course all about? How are things implemented and supposed to work?
-
-* [General outline](https://m-earnest.github.io/course_template_diler/general_information/outline.html)
-
-   What are the specific topics and aspects taught?
-
-* [Introduction](https://m-earnest.github.io/course_template_diler/introduction/intro.html)
-
-   All things gotta start somewhere, but how?
-
-* [Content](https://m-earnest.github.io/course_template_diler/content/intro_content.html)
-
-   What is this course gonna contain?
-
-   
-* [Results communication](https://m-earnest.github.io/course_template_diler/general_information/results_communication.html)
-
-   Where should the acquired knowledge to be disseminated?
-
-* [Symposium](https://m-earnest.github.io/course_template_diler/general_information/symposium.html)
-
-   What to do about outreach and discourse creation?
-
-
-* [Diversity, Equity, Inclusion](https://m-earnest.github.io/course_template_diler/general_information/dei.html)
-
-   What to look out for, what to keep in mind and how to trear each other.
-
-* [Code of Conduct](https://m-earnest.github.io/course_template_diler/general_information/CoC.html)
-
-   Necessities for creating an open, fair, safe and inclusive learning
-   experience.
-
-## I've got a question!
-
-In case you have any questions or difficulties with the lecture and its materials, please don’t hesitate a single second to get in touch with us. A great way to do this is to open an issue on the GitHub site of the course. You can of course further contact us via [E-mail](@psych.uni-frankfurt.de). Every feedback or idea  you might have is highly appreciated and valued.
-
-
-## Acknowledgements
+_This handbook is a living document. If something is outdated or missing, contributions are welcome — see the GitHub section for how to help keep it up to date._
