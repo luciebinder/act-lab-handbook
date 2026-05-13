@@ -2,6 +2,8 @@
 This handbook is a knowledge base for new staff and PhD students in the **Department of General Psychology II (ACT-Lab) at Goethe University Frankfurt**.
 It covers the tools, workflows, and procedures you'll need to work and conduct research in this lab — from file sharing and admin tasks to data collection, analysis, and open science practices.
 
+Link: https://luciebinder.github.io/act-lab-handbook/
+
 ## What's inside
 
 🗂️ File sharing with next.hessenbox  
