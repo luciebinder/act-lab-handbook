@@ -4,6 +4,10 @@
 
 [GRADE](https://www.grade.uni-frankfurt.de/51934152/GRADE___Die__Post__Graduiertenakademie_der_Goethe_Universit%C3%A4t) (Goethe Research Academy for Early Career Researchers) is the central support unit for early-career researchers at Goethe University. It offers workshops, individual coaching, networking events, career development measures, financial support, and language courses.
 
+```{important}
+To participate in GRADE workshops free of charge, you need to **register once as a PhD student** with GRADE beforehand: [GRADE PhD Registration](https://www.grade.uni-frankfurt.de/52285441/Anmeldung_PhD).
+```
+
 GRADE workshops cover the following areas:
 
 - **Inter-/Transdisciplinarity & Intercultural Competence**, such as _Leading Interdisciplinary International Research Groups_ or _Working in Diverse Teams - Intercultural Competencies_
@@ -16,11 +20,6 @@ erste Führungsposition in Wissenschaft und Wirtschaft _), Organisational Skills
 ```{seealso}
 Browse the full workshop programme on the [GRADE Training Programme](https://www.grade.uni-frankfurt.de/55440635/GRADE_Trainingsprogramm) page.
 ```
-
-```{important}
-To participate in GRADE workshops free of charge, you need to **register once as a PhD student** with GRADE beforehand: [GRADE PhD Registration](https://www.grade.uni-frankfurt.de/52285441/Anmeldung_PhD).
-```
-
 
 ---
 
