@@ -1,6 +1,6 @@
 # Doing a PhD
 
-This page provides an overview of the key steps involved in [completing a PhD at the Institute of Psychology](https://www.psychologie.uni-frankfurt.de/142247386/Promotionen_am_Institut_f%C3%BCr_Psychologie).
+This page provides an overview of the key steps involved in completing a PhD at the Institute of Psychology.
 
 ## 1. Registration as a Doctoral Researcher
 
