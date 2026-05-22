@@ -372,7 +372,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -388,6 +390,20 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wifi-on-campus">Wifi on Campus</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#eduroam-recommended">eduroam (recommended)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flughafen">FLUGHAFEN</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#freiflug">FREIFLUG</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vpn-client">VPN Client</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -399,7 +415,35 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="wifi-and-vpn">
 <h1>Wifi and VPN<a class="headerlink" href="#wifi-and-vpn" title="Permalink to this heading">#</a></h1>
-<p><a class="reference external" href="https://www.rz.uni-frankfurt.de/139452557/VPN">https://www.rz.uni-frankfurt.de/139452557/VPN</a></p>
+<section id="wifi-on-campus">
+<h2>Wifi on Campus<a class="headerlink" href="#wifi-on-campus" title="Permalink to this heading">#</a></h2>
+<p>There are three networks available on campus:</p>
+<section id="eduroam-recommended">
+<h3>eduroam (recommended)<a class="headerlink" href="#eduroam-recommended" title="Permalink to this heading">#</a></h3>
+<p>The standard university Wi-Fi, available at universities and research institutions across Germany and beyond. Log in with your HRZ account:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">HRZ</span><span class="o">-</span><span class="n">Account</span><span class="o">&gt;</span><span class="nd">@uni</span><span class="o">-</span><span class="n">frankfurt</span><span class="o">.</span><span class="n">de</span>
+</pre></div>
+</div>
+<p>This login also works at any other eduroam-enabled institution.</p>
+</section>
+<section id="flughafen">
+<h3>FLUGHAFEN<a class="headerlink" href="#flughafen" title="Permalink to this heading">#</a></h3>
+<p>Uses the same authentication as eduroam, but you can omit the <code class="docutils literal notranslate"><span class="pre">&#64;uni-frankfurt.de</span></code> part and log in with your HRZ account only.</p>
+</section>
+<section id="freiflug">
+<h3>FREIFLUG<a class="headerlink" href="#freiflug" title="Permalink to this heading">#</a></h3>
+<p>An <strong>unencrypted</strong> network — use only if eduroam cannot be set up on your device (e.g. older mobile devices). To connect, join the FREIFLUG network and log in via your browser using your HRZ account.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>For more details, visit the <a class="reference external" href="https://www.rz.uni-frankfurt.de/137552051/WLAN">HRZ WiFi page</a>.</p>
+</div>
+</section>
+</section>
+<section id="vpn-client">
+<h2>VPN Client<a class="headerlink" href="#vpn-client" title="Permalink to this heading">#</a></h2>
+<p>To access university resources from outside campus (e.g. the university portal), you need to connect via VPN first.</p>
+<p>Setup instructions can be found on the <a class="reference external" href="https://www.rz.uni-frankfurt.de/139452557/VPN">HRZ VPN page</a>.</p>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 </section>
@@ -458,6 +502,27 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#wifi-on-campus">Wifi on Campus</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#eduroam-recommended">eduroam (recommended)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#flughafen">FLUGHAFEN</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#freiflug">FREIFLUG</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#vpn-client">VPN Client</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
