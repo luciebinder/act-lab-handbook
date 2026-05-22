@@ -17,6 +17,11 @@ erste Führungsposition in Wissenschaft und Wirtschaft _), Organisational Skills
 Browse the full workshop programme on the [GRADE Training Programme](https://www.grade.uni-frankfurt.de/55440635/GRADE_Trainingsprogramm) page.
 ```
 
+```{important}
+To participate in GRADE workshops free of charge, you need to **register once as a PhD student** with GRADE beforehand: [GRADE PhD Registration](https://www.grade.uni-frankfurt.de/52285441/Anmeldung_PhD).
+```
+
+
 ---
 
 ## IKH — Interdisziplinäres Kolleg Hochschuldidaktik
