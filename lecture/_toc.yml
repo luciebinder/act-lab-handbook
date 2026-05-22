@@ -5,6 +5,7 @@ chapters:
 - file: content/wifi
 - file: content/teaching
 - file: content/workshops
+- file: content/phd
   sections:
   - file: content/static_content
   - file: content/interactive_notebook
