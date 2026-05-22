@@ -39,7 +39,7 @@ To get an idea of how others have structured their dissertation, you can browse 
 
 2) Then, click on **Dissertation**.
 
-![Filter by document type](../static/PUB_dissertation.png)
+![Filter by document type](../static/PUB_Dissertation.png)
 
 3) Lastly, filter by institute on the left side: click **"+ weitere +"** and select **[Psychologie und Sportwissenschaften]**.
 
