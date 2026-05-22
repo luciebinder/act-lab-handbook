@@ -54,7 +54,7 @@ This link might work as well: [Link to filtered dissertations](https://publikati
 Once your dissertation is complete, you need to formally open the examination procedure (*Eröffnung des Prüfungsverfahrens*) to initiate the review and defence process.
 
 ```{tip}
-As soon as you have a rough idea of when you'd like to submit — or when you start writing your dissertation (i.e., *Manteltext*) — get in touch with the responsible person in the department (see contact information om the right hand side [here](https://www.psychologie.uni-frankfurt.de/142247386/Promotionen_am_Institut_f%C3%BCr_Psychologie)) to find out when the next doctoral committee meetings (*Promotionsausschüsse*) are scheduled. These dates determine your submission deadline and may shape your entire timeline.
+As soon as you have a rough idea of when you'd like to submit — or when you start writing your dissertation (i.e., *Manteltext*) — get in touch with the responsible person in the department (see contact information on the right hand side [here](https://www.psychologie.uni-frankfurt.de/142247386/Promotionen_am_Institut_f%C3%BCr_Psychologie)) to find out when the next doctoral committee meetings (*Promotionsausschüsse*) are scheduled. These dates determine your submission deadline and may shape your entire timeline.
 ```
 
 ```{seealso}
