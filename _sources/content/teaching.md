@@ -6,7 +6,7 @@
 
 The portal covers a range of topics and tools, as shown in the overview below.
 
-![Overview of Virtuelle Lehre](../static/lehre-virtuell.png)
+[![Overview of Virtuelle Lehre](../static/lehre-virtuell.png)](https://lehre-virtuell.uni-frankfurt.de/)
 
 ## studiumdigitale
 
