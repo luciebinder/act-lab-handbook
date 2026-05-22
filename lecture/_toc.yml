@@ -4,6 +4,7 @@ chapters:
 - file: content/vacation
 - file: content/wifi
 - file: content/teaching
+- file: content/workshops
   sections:
   - file: content/static_content
   - file: content/interactive_notebook
