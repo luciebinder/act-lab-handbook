@@ -63,4 +63,7 @@ Typical page counts are approximately **30 pages** for Bachelor's theses and **7
 
 ### Call-a-CAB
 
-*(More information to follow)*
+
+[Call-a-CAB](https://www.psychologie.uni-frankfurt.de/74556885/Call_a_CAB) is a seminar and peer support programme initiated by Sabine. Psychology students can take the seminar as a research module (PsyMSc 5), during which they support fellow students facing motivational or study-related challenges over the course of 10 sessions.
+
+The individual one-to-one support sessions are complemented by peer intervisions, where participants exchange experiences using collegial case consultation (*Kollegiale Fallberatung*).
