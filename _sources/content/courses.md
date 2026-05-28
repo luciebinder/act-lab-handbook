@@ -1,6 +1,4 @@
-# Teaching
-
-## Courses Offered by the Department
+# Courses
 
 All courses and lectures offered by the department are listed on [QIS/LSF](https://qis.server.uni-frankfurt.de/qisserver/). To find them, navigate to **Veranstaltungen → Veranstaltungsverzeichnis** and browse by faculty and degree programme. You can select the semester in the top right corner.
 
