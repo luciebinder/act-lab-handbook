@@ -35,3 +35,9 @@ This [blog post](http://datacolada.org/64) may be a helpful resource when answer
 
 Students completing their thesis in our lab are required to upload their **pre-registration, materials, code and data** to LIFOS. Files are stored long-term and accessible within the department.
 
+```{important}
+Log in with your **HRZ account**. A LIFOS account will be automatically created on your first login.
+```
+
+The [LIFOS Wiki & FAQs](https://lifos.uni-frankfurt.de/welcome-to-lifos/LIFOS) are a helpful resource to get started with the platform.
+
