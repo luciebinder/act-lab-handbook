@@ -41,7 +41,7 @@ To get an idea of how others have structured their dissertation, you can browse 
 
 ![Filter by document type](../static/PUB_Dissertation.png)
 
-3) Lastly, filter by institute on the left side: click **"+ weitere +"** and select **[Psychologie und Sportwissenschaften]**.
+3) Lastly, filter by institute on the left side: click **"+ weitere"** and select **Psychologie und Sportwissenschaften**.
 
 This link might work as well: [Link to filtered dissertations](https://publikationen.ub.uni-frankfurt.de/solrsearch/index/search/searchtype/simple/query/%2A%3A%2A/browsing/true/doctypefq/doctoralthesis/start/0/rows/10/facetNumber_institute/all/institutefq/Psychologie+und+Sportwissenschaften)
 
