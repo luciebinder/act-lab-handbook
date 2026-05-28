@@ -8,6 +8,7 @@ chapters:
 - file: content/open-science
 - file: content/workshops
 - file: content/phd
+- file: content/hessenbox
   sections:
   - file: content/static_content
   - file: content/interactive_notebook
