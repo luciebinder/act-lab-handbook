@@ -1,5 +1,6 @@
 format: jb-book
 root: general_information/index
+parts:
 - caption: Administrative
   chapters:
   - file: content/wifi
