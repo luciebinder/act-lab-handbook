@@ -3,7 +3,9 @@ root: general_information/index
 chapters:
 - file: content/vacation
 - file: content/wifi
+- file: content/teaching
 - file: content/teaching-resources
+- file: content/lifos
 - file: content/workshops
 - file: content/phd
   sections:
