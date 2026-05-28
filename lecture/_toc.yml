@@ -1,16 +1,20 @@
 format: jb-book
 root: general_information/index
-chapters:
-- file: content/vacation
-- file: content/wifi
-- file: content/teaching
-- file: content/teaching-resources
-- file: content/open-science
-- file: content/workshops
-- file: content/phd
-- file: content/hessenbox
-  sections:
-  - file: content/static_content
-  - file: content/interactive_notebook
-- file: general_information/CoC
-- file: general_information/dei
+- caption: Administrative
+  chapters:
+  - file: content/wifi
+  - file: content/hessenbox
+  - file: content/vacation
+- caption: PhD & Professional Development
+  chapters:
+  - file: content/phd
+  - file: content/workshops
+- caption: Teaching
+  chapters:
+  - file: content/teaching
+  - file: content/teaching-resources
+- caption: Research
+  chapters:
+  - file: content/zotero
+  - file: content/open-science
+  - file: content/sona
