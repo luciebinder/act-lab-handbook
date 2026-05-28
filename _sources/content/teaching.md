@@ -10,8 +10,6 @@ Course planning is coordinated approximately **one year in advance** by the [Leh
 
 Our lab is involved in teaching the following courses:
 
----
-
 ### PsyBSc 10 — Empirisch-experimentelles Praktikum (EXPRA)
 *Offered every winter semester*
 
@@ -25,16 +23,14 @@ For WiSe 25/26, a [course website](https://expra-frankfurt.github.io/wise25/gene
 
 Teaching materials from previous years can be found in the Hessenbox folder **Allgemeine II-intern → Lehre**.
 
----
-
-## PsyBSc 11 — Vertiefungsseminar Allgemeine Psychologie II
+### PsyBSc 11 — Vertiefungsseminar Allgemeine Psychologie II
 *Offered every summer semester (SoSe)*
 
 This seminar covers core topics in General Psychology II, including learning, memory, motivation, and emotion. Students explore the general principles underlying these areas of behaviour and their psychological foundations.
 
 PsyBSc 11 is a **weekly seminar**, with multiple parallel sections offered each semester. In recent years, students have predominantly designed **research posters** or conducted **demonstrations** based on methodologically strong and discussion-worthy experiments from the field of General Psychology II.
 
-## Research Module — PsyMSc 5
+### Research Module — PsyMSc 5
 
 This module covers the full research process: developing a research topic, formulating hypotheses, planning, conducting, and analysing empirical studies, and documenting the results in writing. Studies can be laboratory-based or field studies. Depending on the available time, instructors may set specific focus areas.
 
@@ -59,10 +55,7 @@ Students must formally register their thesis — typically after data collection
 
 Typical page counts are approximately **30 pages** for Bachelor's theses and **70 pages** for Master's theses. 
 
----
-
-### Call-a-CAB
-
+## Call-a-CAB
 
 [Call-a-CAB](https://www.psychologie.uni-frankfurt.de/74556885/Call_a_CAB) is a seminar and peer support programme initiated by Sabine. Psychology students can take the seminar as a research module (PsyMSc 5), during which they support fellow students facing motivational or study-related challenges over the course of 10 sessions.
 
