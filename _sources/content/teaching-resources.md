@@ -14,10 +14,9 @@ The portal covers a range of topics and tools, as shown in the overview below.
 
 They provide instructions and support for tools such as [Moodle](https://www.studiumdigitale.uni-frankfurt.de/lehre/tools/moodle), [AI-ToolLab](https://www.studiumdigitale.uni-frankfurt.de/lehre/tools/ai-toollab), [LernBar](https://www.studiumdigitale.uni-frankfurt.de/lehre/tools/lernbar), [HyperChalk](https://www.studiumdigitale.uni-frankfurt.de/lehre/tools/hyperchalk), and [Etherpad](https://www.studiumdigitale.uni-frankfurt.de/lehre/tools/etherpad).
 
-
 ## pandaR
 
-[pandaR](https://pandar.netlify.app/) is a teaching website created by the Methods department, providing course materials and exercises for students. It is a great resource to refer students to — for example during thesis supervision or in the EXPRA seminar.
+[pandaR](https://pandar.netlify.app/) is a teaching website created by the Methods department, providing course materials and exercises for students. It is a great resource to refer students to — for example during [thesis supervision](https://luciebinder.github.io/act-lab-handbook/content/teaching.html#thesis-supervision) or in the [EXPRA seminar](https://luciebinder.github.io/act-lab-handbook/content/teaching.html#psybsc-10-empirisch-experimentelles-praktikum-expra).
 
 The website covers all methods courses from the Bachelor's and Master's programme, as well as additional topics such as ggplot, Git, Bayesian statistics, and RMarkdown.
 
