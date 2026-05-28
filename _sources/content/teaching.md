@@ -46,7 +46,7 @@ We supervise both Bachelor's and Master's theses. In addition to individual supe
 - **Bachelor's students** present once
 - **Master's students** present twice — typically once to introduce their idea and study design, and once to present their results
 
-In our lab, students are normally required to write a **pre-registration** before data collection, and to upload their data and materials to [LIFOS](https://lifos.uni-frankfurt.de/users/sign_in) upon completion. See the {doc}`lifos` page for more information.
+In our lab, students are normally required to write a **pre-registration** before data collection, and to upload their data and materials to [LIFOS](https://lifos.uni-frankfurt.de/users/sign_in) upon completion. See the [section on LIFOS](https://luciebinder.github.io/act-lab-handbook/content/open-science.html#lifos-lokale-infrastruktur-fur-open-science) for more information.
 
 Students must formally register their thesis — typically after data collection is complete. Once registered, the submission deadline begins.
 
