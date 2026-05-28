@@ -12,7 +12,7 @@ parts:
   - file: content/workshops
 - caption: Teaching
   chapters:
-  - file: content/teaching
+  - file: content/courses
   - file: content/teaching-resources
 - caption: Research
   chapters:
