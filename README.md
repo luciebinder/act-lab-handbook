@@ -1,21 +1,33 @@
 # ACT-Lab Handbook
-This handbook is a knowledge base for new staff and PhD students in the **Department of General Psychology II (ACT-Lab) at Goethe University Frankfurt**.
-It covers the tools, workflows, and procedures you'll need to work and conduct research in this lab — from file sharing and admin tasks to data collection, analysis, and open science practices.
 
-Link: https://luciebinder.github.io/act-lab-handbook/
+A knowledge base for new staff and PhD students in the **Department of General Psychology II (ACT-Lab)** at Goethe University Frankfurt.
+
+**https://luciebinder.github.io/act-lab-handbook**
 
 ## What's inside
 
-🗂️ File sharing with next.hessenbox  
-🏖️ Vacation requests & absence notifications  
-🎓 Getting started as a PhD student (GRADE, IKH, Anmeldung Promotion)  
-⚖️ Submitting ethics proposals  
-📋 Creating surveys with SoSci Survey  
-👥 Collecting data with Sona System  
-📚 Managing literature with Zotero  
-🔓 Sharing research via OSF & LIFOS  
-🎓 Teaching & Moodle/OLAT  
-🔄 Keeping this handbook up to date with GitHub  
+**Getting Started**
+- WiFi and VPN
+- File sharing with Hessenbox
+- Vacation requests & absence notifications
+
+**Starting your PhD**
+- Doing a PhD (registration, dissertation, examination)
+- Workshops & professional development (GRADE, IKH, Mentoring Hessen)
+
+**Conducting Research**
+- Submitting ethics proposals
+- Open science (OSF, LIFOS, pre-registration)
+- Collecting data with Sona System
+- Managing literature with Zotero
+
+**Teaching**
+- Courses offered by the department
+- Teaching resources (pandaR, Virtuelle Lehre, studiumdigitale)
+
+**Contributing to this Handbook**
+- How to collaborate, fork, and keep this handbook up to date
 
 ## Built with
-This site is built with Jupyter Book and hosted via GitHub Pages.
+
+This site is built with [Jupyter Book](https://jupyterbook.org) and hosted via GitHub Pages. Licensed under [BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause).
