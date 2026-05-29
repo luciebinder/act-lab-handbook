@@ -1,23 +1,30 @@
 format: jb-book
 root: index
+
 parts:
-- caption: Administrative
+- caption: Getting Started
   chapters:
   - file: content/wifi
   - file: content/hessenbox
   - file: content/vacation
-  - file: content/github
-- caption: PhD & Professional Development
+
+- caption: Starting your PhD
   chapters:
   - file: content/phd
   - file: content/workshops
+
+- caption: Conducting Research
+  chapters:
+  - file: content/ethics
+  - file: content/open-science
+  - file: content/sona
+  - file: content/zotero
+
 - caption: Teaching
   chapters:
   - file: content/courses
   - file: content/teaching-resources
-- caption: Research
+
+- caption: Contributing to this Handbook
   chapters:
-  - file: content/ethics
-  - file: content/open-science
-  - file: content/zotero
-  - file: content/sona
+  - file: content/github
