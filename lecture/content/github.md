@@ -1,4 +1,4 @@
-# Contributing to this Handbook
+# Github
 
 This handbook is hosted on GitHub and built with [Jupyter Book](https://jupyterbook.org). This page explains how the repository is structured and how you can contribute or reuse the content.
 
