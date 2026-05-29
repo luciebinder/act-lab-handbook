@@ -1,5 +1,5 @@
 format: jb-book
-root: general_information/index
+root: index
 parts:
 - caption: Administrative
   chapters:
