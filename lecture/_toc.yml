@@ -16,6 +16,7 @@ parts:
   - file: content/teaching-resources
 - caption: Research
   chapters:
-  - file: content/zotero
+  - file: content/ethics
   - file: content/open-science
+  - file: content/zotero
   - file: content/sona
