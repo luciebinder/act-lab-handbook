@@ -6,6 +6,7 @@ parts:
   - file: content/wifi
   - file: content/hessenbox
   - file: content/vacation
+  - file: content/github
 - caption: PhD & Professional Development
   chapters:
   - file: content/phd
