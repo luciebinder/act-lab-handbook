@@ -2,6 +2,10 @@
 This handbook is your go-to resource for working and conducting research in the **Department of General Psychology II (ACT-Lab)** at Goethe University Frankfurt.
 Whether you're just starting as a new staff member, a HiWi, or a PhD student — this handbook is here to help you find your footing and get up to speed with how things work in the lab.
 
+```{note}
+This handbook is based on personal experience and reflects the state of knowledge at the time of writing. Information may be outdated — always double-check with official sources when in doubt.
+```
+
 ## What you'll find here
 This handbook covers the tools, workflows, and procedures you'll encounter in your day-to-day lab life — from admin tasks like vacation requests and ethics proposals, to research tools like SONA, Zotero, and OSF.
 
