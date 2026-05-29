@@ -1,0 +1,678 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Contributing to this Handbook &#8212; ACT-Lab Handbook</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.11b39860a7a0cbfd473a3ad8a317855267ff0bd372690045ca344a6b62be495e.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.5ea377869091fd0449014c60fc090103.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'content/github';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">ACT-Lab Handbook</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    Welcome to the ACT-Lab Handbook 👋
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Administrative</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="wifi.html">Wifi and VPN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="hessenbox.html">Hessenbox</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vacation.html">Vacation &amp; Absence</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">PhD &amp; Professional Development</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="phd.html">Doing a PhD</a></li>
+<li class="toctree-l1"><a class="reference internal" href="workshops.html">Workshops &amp; Professional Development</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Teaching</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="courses.html">Courses</a></li>
+<li class="toctree-l1"><a class="reference internal" href="teaching-resources.html">Teaching Resources</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Research</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="ethics.html">Ethics Proposals</a></li>
+<li class="toctree-l1"><a class="reference internal" href="open-science.html">Open Science</a></li>
+<li class="toctree-l1"><a class="reference internal" href="zotero.html">Zotero</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sona.html">Sona System</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/luciebinder/act-lab-handbook" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/luciebinder/act-lab-handbook/edit/master/lecture/content/github.md" target="_blank"
+   class="btn btn-sm btn-source-edit-button dropdown-item"
+   title="Suggest edit"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-pencil-alt"></i>
+  </span>
+<span class="btn__text-container">Suggest edit</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/luciebinder/act-lab-handbook/issues/new?title=Issue%20on%20page%20%2Fcontent/github.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/content/github.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Contributing to this Handbook</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-github-what-is-a-repository">What is GitHub &amp; What is a Repository?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-is-this-handbook-structured">How is this Handbook Structured?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-contribute-or-reuse">How to Contribute or Reuse</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-a-collaborate-on-the-repository">Option A: Collaborate on the Repository</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-b-fork-the-repository">Option B: Fork the Repository</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-and-deleting-pages">Adding and Deleting Pages</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-a-page">Adding a Page</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deleting-a-page">Deleting a Page</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#formatting-with-markdown">Formatting with Markdown</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publishing-pushing-to-the-website">Publishing — Pushing to the Website</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license-reuse">License &amp; Reuse</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="contributing-to-this-handbook">
+<h1>Contributing to this Handbook<a class="headerlink" href="#contributing-to-this-handbook" title="Permalink to this heading">#</a></h1>
+<p>This handbook is hosted on GitHub and built with <a class="reference external" href="https://jupyterbook.org">Jupyter Book</a>. This page explains how the repository is structured and how you can contribute or reuse the content.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This handbook is licensed under <strong>CC BY 4.0</strong> — you are free to use, adapt, and build upon it, as long as you give appropriate credit.</p>
+</div>
+<hr class="docutils" />
+<section id="what-is-github-what-is-a-repository">
+<h2>What is GitHub &amp; What is a Repository?<a class="headerlink" href="#what-is-github-what-is-a-repository" title="Permalink to this heading">#</a></h2>
+<p><a class="reference external" href="https://github.com">GitHub</a> is a platform for hosting and collaborating on code and text files. A <strong>repository</strong> (or “repo”) is essentially a folder that contains all the files of a project; in this case, all the pages, images, and configuration files that make up this handbook.</p>
+</section>
+<hr class="docutils" />
+<section id="how-is-this-handbook-structured">
+<h2>How is this Handbook Structured?<a class="headerlink" href="#how-is-this-handbook-structured" title="Permalink to this heading">#</a></h2>
+<p>The repository contains several configuration files and folders. Here, we focus on the parts most relevant for editing and adding content:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>act-lab-handbook/
+├── lecture/
+│   ├── _toc.yml        # Table of contents
+│   ├── _config.yml     # Book configuration
+│   ├── index.md        # Start page
+│   ├── static/         # Images and other files
+│   └── content/        # All handbook pages
+│       ├── vacation.md
+│       ├── wifi.md
+│       └── ...
+</pre></div>
+</div>
+</section>
+<hr class="docutils" />
+<section id="how-to-contribute-or-reuse">
+<h2>How to Contribute or Reuse<a class="headerlink" href="#how-to-contribute-or-reuse" title="Permalink to this heading">#</a></h2>
+<section id="option-a-collaborate-on-the-repository">
+<h3>Option A: Collaborate on the Repository<a class="headerlink" href="#option-a-collaborate-on-the-repository" title="Permalink to this heading">#</a></h3>
+<p>If you would like to contribute directly to this handbook, get in touch with the person currently maintaining the repository. They can add you as a <strong>collaborator</strong>, giving you direct access to edit files in the repo.</p>
+<ol class="arabic simple">
+<li><p>First, you will need to create an own Github account.</p></li>
+<li><p>Then, the maintainer goes to the repository on GitHub and clicks on <strong>Settings</strong>. On the left, click on <strong>Collaborators</strong>, then <strong>“Add people”</strong>.</p></li>
+</ol>
+<p><img alt="Collaborators settings on GitHub" src="../_images/github_collaborators.png" /></p>
+<ol class="arabic simple" start="3">
+<li><p>Lastly, they enter the username, name, or email address and click on <strong>Add to repository</strong>.</p></li>
+</ol>
+<p><img alt="Adding a collaborator on GitHub" src="../_images/github_add_people.png" /></p>
+</section>
+<section id="option-b-fork-the-repository">
+<h3>Option B: Fork the Repository<a class="headerlink" href="#option-b-fork-the-repository" title="Permalink to this heading">#</a></h3>
+<p>If you would like to create your own version of this handbook, you can <strong>fork</strong> the repository. This creates an independent copy under your own GitHub account that you can freely adapt.</p>
+<ol class="arabic simple">
+<li><p>Make sure you are in the <strong>Code</strong> section of the repository. Then click on <strong>Fork</strong>.</p></li>
+</ol>
+<p><img alt="Fork button on GitHub" src="../_images/github_fork-button.png" /></p>
+<ol class="arabic simple" start="2">
+<li><p>Choose your account, add a name for the repository, and optionally a description. Then confirm.</p></li>
+</ol>
+<p><img alt="Forking a repository on GitHub" src="../_images/github_fork.png" /></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Forking is a great option if you want to build your own version of a lab handbook based on this one. This is exactly what open educational resources (OER) are for!</p>
+</div>
+</section>
+</section>
+<hr class="docutils" />
+<section id="adding-and-deleting-pages">
+<h2>Adding and Deleting Pages<a class="headerlink" href="#adding-and-deleting-pages" title="Permalink to this heading">#</a></h2>
+<section id="adding-a-page">
+<h3>Adding a Page<a class="headerlink" href="#adding-a-page" title="Permalink to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Create a new <code class="docutils literal notranslate"><span class="pre">.md</span></code> file in the <code class="docutils literal notranslate"><span class="pre">content/</span></code> folder.</strong></p>
+<p>a) Navigate to the <code class="docutils literal notranslate"><span class="pre">content/</span></code> folder and click <strong>“Add file”</strong> in the upper right corner.</p>
+<p><img alt="Add file button on GitHub" src="../_images/github_add_file.png" /></p>
+<p>b) Enter a name for the file at the top — don’t forget to add the <code class="docutils literal notranslate"><span class="pre">.md</span></code> extension so it is recognised as a Markdown file.</p>
+<p><img alt="Naming a new file on GitHub" src="../_images/github_new_file.png" /></p>
+<p>c) Once you are happy with your changes, click <strong>Commit</strong>.</p>
+<p><img alt="Committing a new file on GitHub" src="../_images/github_commit_changes.png" /></p>
+<p>d) Add a short title and description for your changes — this helps you and collaborators keep track of what was changed and why.</p>
+<p><img alt="Commit message on GitHub" src="static/github_commit.png" /></p>
+</li>
+<li><p><strong>Add the new page to <code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code></strong> in the appropriate section.</p>
+<p>a) Navigate to the <code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code> file and click the <strong>pencil icon</strong> in the upper right corner to edit the file.</p>
+<p><img alt="Editing the table of contents on GitHub" src="../_images/github_toc.png" /></p>
+<p>b) Add the path to your new file in the appropriate section.</p>
+<p><img alt="Adding a new entry to the table of contents" src="../_images/github_toc_change.png" /></p>
+</li>
+</ol>
+</section>
+<hr class="docutils" />
+<section id="deleting-a-page">
+<h3>Deleting a Page<a class="headerlink" href="#deleting-a-page" title="Permalink to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Delete the <code class="docutils literal notranslate"><span class="pre">.md</span></code> file from the <code class="docutils literal notranslate"><span class="pre">content/</span></code> folder.</strong> Navigate to the file, click the <strong>three dots</strong> in the upper right corner, and select <strong>“Delete file”</strong>. Then, click on Commit.</p>
+<p><img alt="Delete file on GitHub" src="../_images/github_delete_file.png" /></p>
+</li>
+<li><p><strong>Remove the corresponding entry from <code class="docutils literal notranslate"><span class="pre">_toc.yml</span></code></strong> — follow the same steps as above to edit the file.</p></li>
+</ol>
+</section>
+</section>
+<hr class="docutils" />
+<section id="formatting-with-markdown">
+<h2>Formatting with Markdown<a class="headerlink" href="#formatting-with-markdown" title="Permalink to this heading">#</a></h2>
+<p>All pages in this handbook are written in Markdown. For a quick reference, see the official <a class="reference external" href="https://www.markdownguide.org/">Markdown Guide</a>. For a tutorial directly applicable to this setup — using Markdown in Jupyter Book — see <a class="reference external" href="https://diler-digitell.github.io/tutorial_jupyter_books/content/3_create/markdown.html">this guide</a> from the OER course this handbook was built with.</p>
+</section>
+<hr class="docutils" />
+<section id="publishing-pushing-to-the-website">
+<h2>Publishing — Pushing to the Website<a class="headerlink" href="#publishing-pushing-to-the-website" title="Permalink to this heading">#</a></h2>
+<p>Once you make changes and commit them to the <code class="docutils literal notranslate"><span class="pre">main</span></code> branch, GitHub Actions automatically builds and deploys the updated handbook to GitHub Pages — no manual steps needed.</p>
+<p>To check the status, click on <strong>Actions</strong> at the top of the repository. You will see a list of recent workflows.</p>
+<p><img alt="GitHub Actions overview" src="../_images/github_action.png" /></p>
+<ul class="simple">
+<li><p><strong>Green</strong> — the handbook was built and deployed successfully</p></li>
+<li><p><strong>Red</strong> — something went wrong. Click on the workflow to see the error message and find out what needs to be fixed.</p></li>
+</ul>
+</section>
+<hr class="docutils" />
+<section id="license-reuse">
+<h2>License &amp; Reuse<a class="headerlink" href="#license-reuse" title="Permalink to this heading">#</a></h2>
+<p>This handbook is licensed under the <a class="reference external" href="https://opensource.org/licenses/BSD-3-Clause">BSD 3-Clause License</a>. You are free to use, adapt, and build upon the content, as long as you give appropriate credit and retain the license notice.</p>
+<div class="admonition seealso">
+<p class="admonition-title">See also</p>
+<p>This handbook was created with the help of the online course <a class="reference external" href="https://diler-digitell.github.io/tutorial_jupyter_books/general-information/index.html">Creating OER with Jupyter Book</a> — a great resource if you’d like to build your own.</p>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./content"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-github-what-is-a-repository">What is GitHub &amp; What is a Repository?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-is-this-handbook-structured">How is this Handbook Structured?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-contribute-or-reuse">How to Contribute or Reuse</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-a-collaborate-on-the-repository">Option A: Collaborate on the Repository</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#option-b-fork-the-repository">Option B: Fork the Repository</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-and-deleting-pages">Adding and Deleting Pages</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-a-page">Adding a Page</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#deleting-a-page">Deleting a Page</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#formatting-with-markdown">Formatting with Markdown</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#publishing-pushing-to-the-website">Publishing — Pushing to the Website</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#license-reuse">License &amp; Reuse</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Lucie Binder
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2026.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
