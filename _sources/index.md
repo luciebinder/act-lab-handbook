@@ -12,6 +12,6 @@ This handbook covers the tools, workflows, and procedures you'll encounter in yo
 ## How to navigate
 Use the table of contents on the left to browse by topic. Each section is self-contained, so feel free to jump straight to whatever you need right now.
 
-------
+---
 
-_This handbook is a living document. If something is outdated or missing, contributions are welcome — see the GitHub section for how to help keep it up to date._
+*This handbook is a living document — contributions are welcome. If something is outdated or missing, or if you'd like to create your own version, see the {doc}`content/github` page for details. Licensed under [BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause).*
